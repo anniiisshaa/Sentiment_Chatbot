@@ -26,8 +26,10 @@ You need **Python 3.8+** and the **`nltk`** library installed. Using a virtual e
 2.  **Create and Activate Virtual Environment:**
     ```bash
     # 1. Create the environment
-    python -m venv .venv 
-    # 2. Activate (Windows PowerShell/VS Code Terminal)
+    python -m venv .venv
+     # 2. Temporarily Bypass the Security Policy (if required)
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+    # 3. Activate (Windows PowerShell/VS Code Terminal)
     .venv\Scripts\Activate.ps1
     ```
 3.  **Install Dependencies:**
