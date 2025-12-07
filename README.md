@@ -87,14 +87,14 @@ VADER calculates a **Compound Score** ranging from $-1.0$ (most negative) to $+1
 
 ## 4\. Status of Tier 2 Implementation
 
-  * **Status:** **Fully Implemented** for additional credit.
+  * **Status:** **Fully Implemented** .
   * **Statement-Level Sentiment:** Achieved. Each message is processed by `get_statement_sentiment` and displayed alongside its sentiment output during the conversation.
-  * **Optional Enhancement (Mood Trend Summary):** Achieved. The `summarize_mood_trend` function calculates the average sentiment of the first half of the conversation versus the second half. This provides a clear summary of any **shift in mood** (e.g., "Mood noticeably improved").
+  * **Enhancement (Mood Trend Summary):** Achieved. The `summarize_mood_trend` function calculates the average sentiment of the first half of the conversation versus the second half. This provides a clear summary of any **shift in mood** (e.g., "Mood noticeably improved").
 
 -----
 
-## 5\. Tests and Innovations (Bonus Credit)
+## 5\. Tests and Innovations (Additional)
 
   * **Robustness:** Code was adjusted to use backward-compatible type hints (`from typing import List, Tuple`) to ensure stability across Python versions 3.8 and up.
   * **Descriptive Output:** The Tier 1 final analysis includes both the standard **Positive/Negative** label and an enhanced **descriptive summary** (e.g., "General Contentment" or "Significant Dissatisfaction") based on the magnitude of the final compound score.
-  * **Tests:** *(If implemented, list test files here, e.g., `tests/test_sentiment.py`)*.
+  * **Tests:** *test_case1.png + test_case part2.png*.
